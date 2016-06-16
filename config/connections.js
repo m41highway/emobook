@@ -61,10 +61,10 @@ module.exports.connections = {
     // host: 'localhost',
     host: 'ds015584.mlab.com',
     // port: 27017
-    port: 15584
+    port: 15584,
     user: 'emoAdmin', //optional
-    password: 'emoAdmin' //optional
-    //database: 'your_mongo_db_name_here' //optional
+    password: 'emoAdmin', //optional
+    database: 'heroku_lk1cnk9s' //optional
   },
 
   /***************************************************************************
