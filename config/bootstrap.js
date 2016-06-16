@@ -10,14 +10,14 @@
  */
 
 module.exports.bootstrap = function(cb) {
-
+/*
 	Emoji.create(
 		[
 			{ text : 'LOL'},
 			{ text : 'lol'},
 			{ text  : 'J_J'} 
 		]
-	).exec(/* function (err, result) {
+	).exec( function (err, result) {
 		if (err) {
 			console.log('NOT work', err);
 			cb(err);
@@ -26,24 +26,24 @@ module.exports.bootstrap = function(cb) {
 			console.log('it works');
 			cb();
 		}
-	}*/
+	}
 
 		// another way
-		{ 
-			error : function (err) {
-				console.log('it does not work', err);
-				cb(err);
-			},
-			success : function (result) {
-				console.log('it works');
-				cb();
-			}
-		}
+		// { 
+		// 	error : function (err) {
+		// 		console.log('it does not work', err);
+		// 		cb(err);
+		// 	},
+		// 	success : function (result) {
+		// 		console.log('it works');
+		// 		cb();
+		// 	}
+		// }
 
-	);
+	);*/
 	
 
   // It's very important to trigger this callback method when you are finished
   // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
-  //cb();
+  cb();
 };
