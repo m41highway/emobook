@@ -56,11 +56,16 @@ module.exports.session = {
   ***************************************************************************/
 
   // host: 'localhost',
+  host: 'slimehead.redistogo.com',
+
   // port: 6379,
+  port: 9378,
   // ttl: <redis session TTL in seconds>,
   // db: 0,
   // pass: <redis auth password>,
   // prefix: 'sess:',
+  user: 'redistogo',
+  pass: 'd41a61cd6d27a7d2b58f4433deced75f'
 
 
   /***************************************************************************
